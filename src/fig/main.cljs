@@ -23,7 +23,7 @@
   [rrn/view
    "Time color: "
    [rrn/text-input {:type "text"
-            :value @time-color
+            :default-value @time-color
             :on-change #(reset! time-color (-> % .-target .-value))}]])
 
 
