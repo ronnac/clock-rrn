@@ -10,9 +10,6 @@
 (defonce time-updater (js/setInterval
                        #(reset! timer (js/Date.)) 1000))
 
-(defn greeting [message]
-  [rrn/text message])
-
 (defn clock []
   (let [time-str (-> @timer .toTimeString (str/split " ") first)]
     [rrn/view
