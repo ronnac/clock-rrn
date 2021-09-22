@@ -1,6 +1,7 @@
 Template to create a ClojureScript Reagent-React-Native Project for use with figwheel.main and expo.
 Based on the [blog post of Luca Cambiaghi](https://www.lucacambiaghi.com/posts/react-native-cljs.html).
 
+The clock is taken from the reagent github page.
 
 I use this learn to create mobile apps on Android/termux.  
 Note: shadow-cljs is too resource heavy for use on my mobile phone, therefore I opted for figwheel.main.  
